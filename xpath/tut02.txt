@@ -1,0 +1,32 @@
+nodename    select all nodes with name "nodename"
+    /       select from the root node
+    //      select current node
+    .       select current node
+    ..      select parent of current node
+    @       select attribute
+
+Examples
+bookstore       select nodes with name "bookstore"
+/bookstore      selects the root element bs (abs path)
+bookstore/book  selects all book elements being children of bookstore
+//book          select all book elements no matter where
+bookstore//book select all book elements being descendant of the book
+//@lang         select all attributes that are named lang
+
+
+Predicates: find specific node
+
+/bookstore/book[1]
+/bookstore/book[last()]
+/bookstore/book[last()-1]
+/bookstore/book[position()<3]
+//title[@lang]
+//title[@lang='en']
+/bookstore/book[price > 35.00]
+/bookstore/book[price > 35.00]/title
+
+/bookstore/*    all child element nodes of bookstore
+//*             all elements in the document
+//title[@*]     all title elements, at least one attribute of any kind
+
+//book/title | //book/price

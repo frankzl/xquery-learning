@@ -1,0 +1,22 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bookstore> <-- root element node
+  <book> <-- element node
+    <title lang="en">Harry Potter</title>
+    <author>J K. Rowling</author>
+    <year>2005</year>
+    <price>29.99</price>
+  </book>
+</bookstore> 
+
+
+lang="en" = attribute node
+J K. Roling = atomic value
+"en" = atomic value
+
+book is *parent* of title...
+title is *child* of book
+title, author, year, price = *siblings*
+*ancestors*
+*descendants*
