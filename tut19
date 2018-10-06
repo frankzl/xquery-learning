@@ -1,0 +1,3 @@
+
+let $x:= count(doc('books.xml')//price)
+return $x

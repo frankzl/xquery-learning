@@ -1,0 +1,34 @@
+
+Each element and attribute has one parent!
+book is parent of title, author, year and price
+
+Elements may have zero, one or more children!
+title, author, year and price elements are children of book
+
+Siblings: nodes having the same parent
+title author, year and price are siblings
+
+<book>
+  <title>Harry Potter</title>
+  <author>J K. Rowling</author>
+  <year>2005</year>
+  <price>29.99</price>
+</book> 
+
+
+Ancestors: A node's parent, parent's parent ..
+ancestors of title are book and bookstore
+
+Descendants: node's chidren, children's children ..
+book, title, author, year, price are descendants of bookstore
+
+<bookstore>
+
+<book>
+  <title>Harry Potter</title>
+  <author>J K. Rowling</author>
+  <year>2005</year>
+  <price>29.99</price>
+</book>
+
+</bookstore> 

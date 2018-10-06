@@ -1,0 +1,4 @@
+
+(: use path expressions to navigate through elements in an XML doc :)
+
+doc("books.xml")/bookstore/book/author

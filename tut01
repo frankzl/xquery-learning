@@ -1,0 +1,6 @@
+
+(: Functions: doc() used to open the xml file :)
+
+doc("books.xml")
+
+

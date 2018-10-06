@@ -1,0 +1,8 @@
+(: In XQuery there are two ways of comparing values.:)
+(:                                                  :)
+(: 1. General comparisons: =, !=, <, <=, >, >=      :)
+(:                                                  :)
+(: 2. Value comparisons: eq, ne, lt, le, gt, ge     :)
+
+
+doc("books.xml")/bookstore//book/@q > 10

@@ -1,0 +1,3 @@
+(: Predicates used to limit the extracted data :)
+
+doc("books.xml")/bookstore/book[@category="WEB"]

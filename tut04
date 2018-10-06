@@ -1,0 +1,4 @@
+(: FLWOR for, let, where, order by, return :)
+
+for $x in doc("books.xml")/bookstore/book/title
+return $x
